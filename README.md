@@ -11,7 +11,7 @@ _Create a program that gathers both a word and sentence from a user, then checks
 
 ## Specification
 ###Bassic Structure of Directory for Program and Testing
-Word-Counter.Solution
+_Word-Counter.Solution
 ├── WordCounter
 │   ├── WordCounter.csproj
 │   └── obj
@@ -25,7 +25,7 @@ Word-Counter.Solution
         ├── WordCounter.Tests.csproj.nuget.cache
         ├── WordCounter.Tests.csproj.nuget.g.props
         ├── WordCounter.Tests.csproj.nuget.g.targets
-        └── project.assets.json
+        └── project.assets.json_
 *For More click the link : https://www.learnhowtoprogram.com/c/c-basics-and-testing/mstest-configuration-and-setup        
 
 ### Program that allows users to input a sentence and count how many matches with that word.
@@ -34,7 +34,7 @@ Word-Counter.Solution
 * Output: The word User only matches 1.
 #OR
 * First Input: User Please input a sentence. (Sentence)
-* Second Input: Hello (WordCounter) 
+* Second Input: Hello (WordCounter)
 * Output: The word Hello doesn't appear in the sentence.
 
 
