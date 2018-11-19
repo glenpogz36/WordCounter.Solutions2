@@ -2,24 +2,26 @@ using System;
 using System.Collections.Generic;
 using WordCounter;
 
-namespace ProgramCounter
+
+public class Program
 {
-  public class Program
-  {
     public static void Main()
-    {
-      Console.WriteLine("WordCounter");
-      Console.WriteLine("Please type in a word");
-      string wordInput = Console.ReadLine();
-      Console.WriteLine("Please type in a text");
-      string textInput = Console.ReadLine();
-      RepeatCounter counterInstance = new RepeatCounter();
-      counterInstance.SetPrivateInput(word);
-      counterInstance.SetPrivateText(sentence);
-      string wordToCount = counterInstance.GetPrivateInput();
-      string[] textToCount = RepeatCounter.SplitTheText(counterInstance.GetPrivateText());
-      int totalCounts = RepeatCounter.CountTheWords(wordToCount, textToCount);
-      Console.WriteLine("Count is :"+ totalCounts);
-    }
+  {
+    Console.WriteLine("Check how frequently the word appears in the sentence");
+    Console.WriteLine("Please type in a word");
+    string words = Console.ReadLine();
+    Console.WriteLine("Please type in a sentence");
+    string sentences = Console.ReadLine();
+    RepeatCounter counterInstance = new RepeatCounter();
+    counterInstance.SetPrivateInput(words);
+    counterInstance.SetPrivateText(sentences);
+    string numberofwords = counterInstance.GetPrivateInput();
+    string[] numberofsentences   = RepeatCounter.SplitTheText(counterInstance.GetPrivateText());
+    int wordcounter = RepeatCounter.CountTheWords(numberofwords, numberofsentences);
+    Console.WriteLine("Count is :"+ wordcounter);
+
+
+
+
   }
 }

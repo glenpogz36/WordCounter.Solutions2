@@ -5,51 +5,48 @@ namespace WordCounter
 {
   public class RepeatCounter
   {
-
-
     private string _sentence;
     private string _word;
 
-    public void SetPrivateword(string word)
+    public void SetPrivateInput(string word)
     {
       _word = word;
     }
 
-    public string GetPrivateword()
+    public string GetPrivateInput()
     {
       return _word;
 
     }
 
-    public void SetPrivatesentence(string sentence)
+    public void SetPrivateText(string sentence)
     {
       _sentence = sentence;
     }
 
-    public string GetPrivatesentence()
+    public string GetPrivateText()
     {
       return _sentence;
 
     }
 
-    public static string[] SplitThesentence(string sentence)
+    public static string[] SplitTheText(string sentence)
     {
-      string[] splitsentence = sentence.Split(' ');
-      return splitsentence;
+    string[] splitsentence = sentence.Split(' ');
+    return splitsentence;
     }
 
     public static int CountTheWords(string word, string[] splitsentence)
     {
       int matches = 0;
       foreach(string sentence in splitsentence)
+    {
+      if (sentence.Equals(word))
       {
-        if (sentence.Equals(word))
-        {
-          matches ++;
-        }
+         matches ++;
       }
+    }
       return matches;
     }
-
   }
 }
