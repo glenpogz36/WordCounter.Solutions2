@@ -14,8 +14,8 @@ namespace ProgramCounter
       Console.WriteLine("Please type in a text");
       string textInput = Console.ReadLine();
       RepeatCounter counterInstance = new RepeatCounter();
-      counterInstance.SetPrivateInput(wordInput);
-      counterInstance.SetPrivateText(textInput);
+      counterInstance.SetPrivateInput(word);
+      counterInstance.SetPrivateText(sentence);
       string wordToCount = counterInstance.GetPrivateInput();
       string[] textToCount = RepeatCounter.SplitTheText(counterInstance.GetPrivateText());
       int totalCounts = RepeatCounter.CountTheWords(wordToCount, textToCount);
