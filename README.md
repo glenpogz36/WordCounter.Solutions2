@@ -27,7 +27,8 @@ __Word-Counter.Solution
         ├── WordCounter.Tests.csproj.nuget.g.props
         ├── WordCounter.Tests.csproj.nuget.g.targets
         └── project.assets.json__
-*For More click the link : https://www.learnhowtoprogram.com/c/c-basics-and-testing/mstest-configuration-and-setup        
+
+*_For More click the link :_ https://www.learnhowtoprogram.com/c/c-basics-and-testing/mstest-configuration-and-setup        
 
 ### Program that allows users to input a sentence and count how many matches with that word.
 * First Input: User Please input a sentence. (Sentence)
