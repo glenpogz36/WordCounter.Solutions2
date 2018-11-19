@@ -32,7 +32,9 @@ _Word-Counter.Solution
 * First Input: User Please input a sentence. (Sentence)
 * Second Input: User (WordCounter)
 * Output: The word User only matches 1.
+
 #OR
+
 * First Input: User Please input a sentence. (Sentence)
 * Second Input: Hello (WordCounter)
 * Output: The word Hello doesn't appear in the sentence.

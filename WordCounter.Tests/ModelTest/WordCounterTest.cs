@@ -1,4 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Collections.Generic;
 using WordCounter;
 
 namespace WordCounter.Tests
@@ -10,9 +12,9 @@ namespace WordCounter.Tests
     public void CountTheWords_NumberOfWords()
     {
       //Arrange
-      string input = "";
-      string output = "";
-      int count = [];
+      string input = "Basketball";
+      string output = "I love Basketball";
+      int count = 1;
 
       // Act
       int result = RepeatCounter.CountTheWords(input, RepeatCounter.SplitTheText(output));
