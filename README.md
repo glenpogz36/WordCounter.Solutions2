@@ -9,9 +9,10 @@
 _Create a program that gathers both a word and sentence from a user, then checks how frequently the word appears in the sentence. It should check for full word matches only. (For instance, if provided the word "cat" and sentence "I'm walking to the cathedral." the first three letters of the word cathedral would not be counted.)_
 
 
-## Specification
-###Bassic Structure of Directory for Program and Testing
-_Word-Counter.Solution
+## _Specification
+###_Bassic Structure of Directory for Program and Testing_
+
+__Word-Counter.Solution
 ├── WordCounter
 │   ├── WordCounter.csproj
 │   └── obj
@@ -25,7 +26,7 @@ _Word-Counter.Solution
         ├── WordCounter.Tests.csproj.nuget.cache
         ├── WordCounter.Tests.csproj.nuget.g.props
         ├── WordCounter.Tests.csproj.nuget.g.targets
-        └── project.assets.json_
+        └── project.assets.json__
 *For More click the link : https://www.learnhowtoprogram.com/c/c-basics-and-testing/mstest-configuration-and-setup        
 
 ### Program that allows users to input a sentence and count how many matches with that word.
@@ -49,11 +50,11 @@ _Word-Counter.Solution
 
 ## Technologies Used
 
-* _HTML_
-* _CSS_
 * _C#_
-* _jQuery_
-* _Bootstrap_
+*_GitBash_
+*_Atom_
+
+
 
 ### License
 
