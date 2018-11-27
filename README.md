@@ -38,22 +38,24 @@ __Word-Counter.Solution
 
 
 ##Setup/Installation Requirements
-*Clone this repository https://github.com/glenpogz36/C-WordCounter--.git
-*Install Mono and .NET Framework
-*Open the folder and run Program.exe in Mono
-*Follow command prompts in Terminal
+* _Clone this repository https://github.com/glenpogz36/C-WordCounter--.git
+* _Download .NET Core 2.1.3 SDK and .NET Core Runtime 2.0.9 and install them. Download Mono and install it._
+* _Change into the work directory:: $ cd WordCounter.Solution_
+* _To edit the project, open the project in your preferred text editor._
+* _To run the program, first navigate to the location of the WordCounter.cs file then compile and execute: $ cd WordCounter/Models $ mcs WordCounter.cs; mono WordCounter.exe;_
+* _To run the tests, use these commands: $ cd WordCounter.Tests $ dotnet test_ 
 
 ## Technologies Used
 
-*_C#_
-*_.NET_
-*_mono_
-*Atom_
-*_GitHub_
+* _C#_
+* _.NET_
+* _mono_
+* _Atom_
+* _GitHub_
 
 
 ### License
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2018 **_Glen Sale_**
+Copyright (c) 2018 ** _Glen Sale_ **
