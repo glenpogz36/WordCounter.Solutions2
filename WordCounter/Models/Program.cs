@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using WordCounter;
+using WordCounter.Models;
 
 
 public class Program

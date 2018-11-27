@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
+using WordCounter.Models;
 
-namespace WordCounter
+namespace WordCounter.Models
 {
   public class RepeatCounter
   {
@@ -36,17 +37,18 @@ namespace WordCounter
     return splitsentence;
     }
 
-    public static int CountTheWords(string word, string[] splitsentence)
+    public static int CountTheWords(string target, string[] words)
     {
       int matches = 0;
-      foreach(string sentence in splitsentence)
+      foreach(string word in words)
     {
-      if (sentence.Equals(word))
+      if (word.Equals(target))
       {
          matches ++;
       }
     }
       return matches;
     }
+
   }
 }

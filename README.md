@@ -9,7 +9,6 @@
 _Create a program that gathers both a word and sentence from a user, then checks how frequently the word appears in the sentence. It should check for full word matches only. (For instance, if provided the word "cat" and sentence "I'm walking to the cathedral." the first three letters of the word cathedral would not be counted.)_
 
 
-## _Specification
 ###_Bassic Structure of Directory for Program and Testing_
 
 __Word-Counter.Solution
@@ -28,33 +27,29 @@ __Word-Counter.Solution
         ├── WordCounter.Tests.csproj.nuget.g.targets
         └── project.assets.json__
 
-*_For More click the link :_ https://www.learnhowtoprogram.com/c/c-basics-and-testing/mstest-configuration-and-setup        
-
-### Program that allows users to input a sentence and count how many matches with that word.
-* First Input: User Please input a sentence. (Sentence)
-* Second Input: User (WordCounter)
-* Output: The word User only matches 1.
-
-#OR
-
-* First Input: User Please input a sentence. (Sentence)
-* Second Input: Hello (WordCounter)
-* Output: The word Hello doesn't appear in the sentence.
+*_For More click the link :_ **https://www.learnhowtoprogram.com/c/c-basics-and-testing/mstest-configuration-and-setup_        
+### Specs
+| Spec | Search | Text | Result |
+| :-------------     | :------------- | :------------- | :------------- |
+| **Program matches lowercase or uppercase Letters** | Search: "basketball" | Text: "Basketball is my favorite sport" |  Result: No match found |
+| **Program Counts The Word that matches in the sentence** | Search: "test" | Text: "This test is a sample testing" |  Result: "matches 1" |
+| **Program Gathers Sentence** | Search : "This sample is a sample" | Text: "This sample is a sample"|  Result: matches 1 |
+| **Program Gathers List of Words** | Test "sample" | Text: "sample, sample, sample"|  Result: "sample matches 3" |
 
 
-
-## Setup/Installation Requirements
-
-* _Clone this repository_
-* _Open a simple HTTP server in the top level of the cloned directory. For a mac, run the following command in your terminal:_   
-* _Then open your web browser of choice_
+##Setup/Installation Requirements
+*Clone this repository https://github.com/glenpogz36/C-WordCounter--.git
+*Install Mono and .NET Framework
+*Open the folder and run Program.exe in Mono
+*Follow command prompts in Terminal
 
 ## Technologies Used
 
-* _C#_
-*_GitBash_
-*_Atom_
-
+*C#
+*.NET
+*mono
+*Atom
+*GitHub
 
 
 ### License
