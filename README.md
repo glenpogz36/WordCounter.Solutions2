@@ -34,7 +34,7 @@ __Word-Counter.Solution
 | **Program matches lowercase or uppercase Letters** | Search: "basketball" | Text: "Basketball is my favorite sport" |  Result: No match found |
 | **Program Counts The Word that matches in the sentence** | Search: "test" | Text: "This test is a sample testing" |  Result: "matches 1" |
 | **Program Gathers Sentence** | Search : "This sample is a sample" | Text: "This sample is a sample"|  Result: matches 1 |
-| **Program Gathers List of Words** | Test "sample" | Text: "sample, sample, sample"|  Result: "sample matches 3" |
+| **Program Gathers List of Words** | Search: "sample" | Text: "sample, sample, sample"|  Result: "sample matches 3" |
 
 
 ##Setup/Installation Requirements
@@ -45,11 +45,11 @@ __Word-Counter.Solution
 
 ## Technologies Used
 
-*C#
-*.NET
-*mono
-*Atom
-*GitHub
+*_C#_
+*_.NET_
+*_mono_
+*Atom_
+*_GitHub_
 
 
 ### License
