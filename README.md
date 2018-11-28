@@ -38,7 +38,7 @@ __Word-Counter.Solution
 
 
 ## Setup/Installation Requirements
-* Clone this repository https://github.com/glenpogz36/C-WordCounter--.git
+* Clone this repository https://github.com/glenpogz36/Csharp-WordCounter.Solutions
 * _Download .NET Core 2.1.3 SDK and .NET Core Runtime 2.0.9 and install them. Download Mono and install it._
 * _Change into the work directory:: $ cd WordCounter.Solution_
 * _To edit the project, open the project in your preferred text editor._
