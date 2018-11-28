@@ -9,7 +9,7 @@
 _Create a program that gathers both a word and sentence from a user, then checks how frequently the word appears in the sentence. It should check for full word matches only. (For instance, if provided the word "cat" and sentence "I'm walking to the cathedral." the first three letters of the word cathedral would not be counted.)_
 
 
-###_Bassic Structure of Directory for Program and Testing_
+###_Basic Structure of Directory for Program and Testing_
 
 __Word-Counter.Solution
 ├── WordCounter
@@ -27,7 +27,7 @@ __Word-Counter.Solution
         ├── WordCounter.Tests.csproj.nuget.g.targets
         └── project.assets.json__
 
-*_For More click the link :_ **https://www.learnhowtoprogram.com/c/c-basics-and-testing/mstest-configuration-and-setup_        
+* _For More click the link :_ ** https://www.learnhowtoprogram.com/c/c-basics-and-testing/mstest-configuration-and-setup_        
 ### Specs
 | Spec | Search | Text | Result |
 | :-------------     | :------------- | :------------- | :------------- |
@@ -37,13 +37,13 @@ __Word-Counter.Solution
 | **Program Gathers List of Words** | Search: "sample" | Text: "sample, sample, sample"|  Result: "sample matches 3" |
 
 
-##Setup/Installation Requirements
-* _Clone this repository https://github.com/glenpogz36/C-WordCounter--.git
+## Setup/Installation Requirements
+* Clone this repository https://github.com/glenpogz36/C-WordCounter--.git
 * _Download .NET Core 2.1.3 SDK and .NET Core Runtime 2.0.9 and install them. Download Mono and install it._
 * _Change into the work directory:: $ cd WordCounter.Solution_
 * _To edit the project, open the project in your preferred text editor._
 * _To run the program, first navigate to the location of the WordCounter.cs file then compile and execute: $ cd WordCounter/Models $ mcs WordCounter.cs; mono WordCounter.exe;_
-* _To run the tests, use these commands: $ cd WordCounter.Tests $ dotnet test_ 
+* _To run the tests, use these commands: $ cd WordCounter.Tests $ dotnet test_
 
 ## Technologies Used
 
