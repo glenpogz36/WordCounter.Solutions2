@@ -13,8 +13,8 @@ namespace WordCounter.Controllers
     }
 
 
-    [HttpPost("/words/result")]
-    public ActionResult Result(string word, string sentence)
+    [HttpPost("/words/show")]
+    public ActionResult Show(string word, string sentence)
     {
     RepeatCounter newCount = new RepeatCounter(word, sentence);
     return View(newCount);

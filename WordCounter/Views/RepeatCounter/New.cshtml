@@ -1,0 +1,15 @@
+
+@{
+  Layout = "_Layout";
+}
+<div class="container">
+<h1>Please Input a word and Sentence to play:</h1>
+<form action="/words/show" method="post">
+  <label for="word">Enter a word to count</label>
+  <input id="word" name="word" type="text">
+  <label for="sentence">Enter a sentence</label>
+  <input id="sentence" name="sentence" type="text">
+
+  <button type="submit">Submit</button>
+</form>
+</div>

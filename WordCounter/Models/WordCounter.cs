@@ -1,53 +1,64 @@
 using System;
 using System.Collections.Generic;
+using System.Text;
+
+
 
 namespace WordCounter.Models
 {
   public class RepeatCounter
   {
-    private string _sentence;
     private string _word;
+    private string _sentence;
 
-    public void SetPrivateInput(string word)
+    public RepeatCounter (string word, string sentence)
+    {
+      _word = word;
+      _sentence = sentence;
+    }
+    public string GetWord()
+    {
+      return _word;
+
+    }
+
+    public void SetWord(string word)
     {
       _word = word;
     }
 
-    public string GetPrivateInput()
+
+
+    public string GetSentence()
     {
-      return _word.Tolower();
+      return _sentence;
 
     }
 
-    public void SetPrivateText(string sentence)
+    public void SetSentence(string sentence)
     {
       _sentence = sentence;
     }
 
-    public string GetPrivateText()
-    {
-      return _sentence.ToLower();
 
+
+    public string[] SplitText()
+    {
+      string[] words = _sentence.Split(' ');
+      return words;
     }
 
-    public static string[] SplitTheText(string sentence)
+    public int CountTheWords()
     {
-    string[] splitsentence = sentence.Split(' ');
-    return splitsentence;
-    }
-
-    public static int CountTheWords(string target, string[] words)
-    {
-      int matches = 0;
-      foreach(string word in words)
-    {
-      if (word.Equals(target))
+      int result = 0;
+      foreach (string word in SplitText())
       {
-         matches ++;
+        if (word == _word)
+        {
+          result++;
+        }
       }
+      return result;
     }
-      return matches;
-    }
-
   }
 }
