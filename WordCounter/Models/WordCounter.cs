@@ -15,7 +15,7 @@ namespace WordCounter.Models
 
     public string GetPrivateInput()
     {
-      return _word;
+      return _word.Tolower();
 
     }
 
@@ -26,7 +26,7 @@ namespace WordCounter.Models
 
     public string GetPrivateText()
     {
-      return _sentence;
+      return _sentence.ToLower();
 
     }
 
