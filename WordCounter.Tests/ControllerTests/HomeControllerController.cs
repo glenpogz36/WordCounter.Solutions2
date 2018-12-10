@@ -7,19 +7,19 @@ using WordCounter.Models;
 namespace WordCounter.Tests
 {
   [TestClass]
-  public class RepeatCounterControllerTest
+  public class HomeControllerTest
   {
     [TestMethod]
 
-    public void New_ReturnCorrectView_True()
+    public void index_ReturnCorrectView_True()
     {
       //Arrange
-      RepeatCounterController controller = new RepeatCounterController();
+      HomeController controller = new HomeController();
 
       //Act
-      ActionResult newView = controller.New();
+      ActionResult indexView = controller.Index();
 
-      Assert.IsInstanceOfType(newView, typeof(ViewResult));
+      Assert.IsInstanceOfType(indexView, typeof(ViewResult));
     }
   }
 }
